@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ifmo_sso/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "ifmo_sso"
+  spec.name          = "devise-ifmo-sso"
   spec.version       = IfmoSso::VERSION
   spec.authors       = ["Dmitry Ivanyushin"]
   spec.email         = ["defance@gmail.com"]
